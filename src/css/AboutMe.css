@@ -1,0 +1,54 @@
+.AboutMe {
+    height: auto;
+    padding: 80px 0;
+    background-color: #1a1a1a;
+}
+
+.AboutMeContainer {
+    height: calc(85vw * 2);
+    width: 85%;
+    margin: auto;    
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutMeTextWrapper {
+    flex: 1;
+    color: white;
+}
+
+.AboutMeImageWrapper {
+    flex: 1;
+    background-image: url(../images/IMG-20191224-WA0166-01-01.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.AboutMeTextWrapper h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: calc(100vw * 0.07);
+    letter-spacing: 1.6px;
+}
+
+.AboutMeTextWrapper h5 {
+    width: 100%;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 1.6px;
+    color: #E1E1E1;
+    margin-bottom: calc(100vw * 0.04);
+}
+
+.AboutMeMore {
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    color: white !important;
+}

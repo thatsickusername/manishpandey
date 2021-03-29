@@ -1,0 +1,46 @@
+.HeroSection {
+    height: 100vh;
+    background: linear-gradient(180deg, #000000 0%, #000000 62.5%, #1a1a1a 100%);
+    color: white;
+}
+
+.HeroContainer {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+.HeroTextWrapper {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+.HeroTextWrapper h1{
+    font-size: 67px;
+    font-weight: 900;
+}
+
+.HeroTextWrapper h4{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 105.69%;
+}
+
+.ScrollText {
+    position: absolute;
+    width: 100%;
+    bottom: 12%;
+    text-align: center;
+}
+
+.ScrollText h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
