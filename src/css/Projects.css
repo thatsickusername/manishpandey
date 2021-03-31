@@ -1,0 +1,21 @@
+.Projects {
+    height: auto;
+    background-color: #ffffff;
+}
+
+
+.ProjectsContainer {
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+
+.ProjectsContainer h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 100px 0;
+    letter-spacing: 1.6px;
+}
+
