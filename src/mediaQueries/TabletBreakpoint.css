@@ -1,0 +1,92 @@
+@media screen and (min-width: 800px){
+
+    .Navbar {
+        width: 100%;
+        height: 100px;
+    }
+
+    .CommonContainer {
+        width: 75%;
+    }
+
+    .HeroTextWrapper {
+        width: 100%;
+    }
+
+    .HeroTextWrapper h1{
+        font-size: 90px;
+    }
+
+    .HeroTextWrapper h4{
+        font-size: 25px;
+    }
+
+    .AboutMeContainer {
+        height: calc(75vw * 1.5);
+    }
+
+    .AboutMeTextWrapper h2 {
+        font-size: 70px;
+        line-height: 60px;
+        letter-spacing: 2.5px;
+    }
+
+    .AboutMeTextWrapper br{
+        display: none;
+    }
+
+    .AboutMeTextWrapper h5 {
+        font-size: 22px;
+    }
+
+
+    .SkillsTextWrapper{
+        padding: 200px 0;
+    }
+    
+    .SkillsTextWrapper h2 {
+        font-size: 70px;
+        letter-spacing: 2.5px;
+    }
+
+    .ProjectsContainer h2 {
+        font-size: 70px;
+        line-height: 60px;
+        letter-spacing: 2.5px;
+        margin: 250px 0 150px;
+    }
+
+    .ProjectsContainer br {
+        display: none;
+    }
+
+    .ProjectDisplayComponent {
+        height: calc(100vw * 0.75);
+        margin-bottom: calc(100vw * 0.15);
+        top: 170px;     
+    }
+
+    .ProjectDisplayComponentContainer  h4 {
+        font-size: 46px;
+    }
+    
+    .ProjectIdeaContainer h2 {
+        font-size: 70px;
+        line-height: 60px;
+        letter-spacing: 2.5px;
+    }
+
+    .PhoneContainer {
+        width: 500px;
+        margin: auto;
+    } 
+
+    .ContactMeContainer h2 {
+        font-size: 70px;
+        line-height: 60px;
+        letter-spacing: 2.5px;
+    }
+
+
+
+}

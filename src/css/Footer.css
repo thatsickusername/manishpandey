@@ -5,9 +5,7 @@
 }
 
 .FooterConatiner {
-    width: 85%;
     height: 100%;
-    margin: auto;
     display: grid;
     place-content: center;
 }

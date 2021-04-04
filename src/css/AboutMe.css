@@ -5,9 +5,7 @@
 }
 
 .AboutMeContainer {
-    height: calc(85vw * 2);
-    width: 85%;
-    margin: auto;    
+    height: calc(85vw * 2);    
     display: flex;
     flex-direction: column;
 }

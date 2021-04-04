@@ -1,0 +1,10 @@
+.Cursor {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: white;
+    mix-blend-mode: difference;
+    transform: translate(-12px,-10px);
+    display: none;
+}

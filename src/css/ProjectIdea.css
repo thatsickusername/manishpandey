@@ -1,5 +1,32 @@
 .ProjectIdea {
     width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.PhoneContainer {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.ProjectIdeaContainer h2{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    padding: 150px 0 150px;
+}
+
+.PhoneContainer img {
+    width: 100%;
+} 
+
+.PhoneContainer .PhoneOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 

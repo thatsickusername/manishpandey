@@ -4,7 +4,7 @@ import '../css/ContactMe.css'
 function ContactMe() {
     return (
         <div className="ContactMe">
-            <div className="ContactMeContainer">
+            <div className="ContactMeContainer CommonContainer">
                 <div className="ContactMeTextWrapper">
                     <h2>Contact Me</h2>
                     <ul>

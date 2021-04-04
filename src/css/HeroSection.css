@@ -42,6 +42,24 @@
 .ScrollText h4 {
     font-weight: 500;
     font-size: 20px;
+    animation: tubelight 5s linear infinite;
+    letter-spacing: 6px;
+}
+
+@keyframes tubelight {
+    0%, 10%, 13%, 20%, 25%, 50%, 60%, 80%, 90%, 95%{
+        color: rgb(49, 49, 49);
+        text-shadow: none;
+    }
+
+    10.1%, 13.1%, 20.1%, 25.1%, 50.1%, 60.1%, 80.1%, 90.1%, 95.1%, 100% {
+        color: white;
+        text-shadow: 0 0 5px lightgray,
+        0 0 10px #9b9b9b,
+        0 0 20px gray, 
+        0 0 40px #363636;
+       
+    }
 }
 
 

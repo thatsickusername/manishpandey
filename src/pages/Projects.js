@@ -10,12 +10,25 @@ import project4 from '../images/project4.jpeg'
 function Projects() {
     return (
         <div className="Projects">
-           <div className="ProjectsContainer">
+           <div className="ProjectsContainer CommonContainer">
                     <h2>latest <br/>projects</h2>
-                    <ProjectDisplayComponent ProjectTittle="Project 1 tittle" imgurl={project1}/>
-                    <ProjectDisplayComponent ProjectTittle="Project 2 tittle" imgurl={project2}/>
-                    <ProjectDisplayComponent ProjectTittle="Project 3 tittle" imgurl={project3}/>
-                    <ProjectDisplayComponent ProjectTittle="Project 4 tittle" imgurl={project4}/>
+                    <div className="MobileCollumn">
+                        <ProjectDisplayComponent ProjectTittle="Project 1 tittle" imgurl={project1}/>
+                        <ProjectDisplayComponent ProjectTittle="Project 2 tittle" imgurl={project2}/>
+                        <ProjectDisplayComponent ProjectTittle="Project 3 tittle" imgurl={project3}/>
+                        <ProjectDisplayComponent ProjectTittle="Project 4 tittle" imgurl={project4}/>
+                    </div>
+
+                    <div className="LaptopGrid">
+                        <div className="TopRow">
+                            <ProjectDisplayComponent ProjectTittle="Project 1 tittle" imgurl={project1}/>
+                            <ProjectDisplayComponent ProjectTittle="Project 2 tittle" imgurl={project2}/>
+                        </div>
+                        <div className="BottomRow">
+                            <ProjectDisplayComponent ProjectTittle="Project 3 tittle" imgurl={project3}/>
+                            <ProjectDisplayComponent ProjectTittle="Project 4 tittle" imgurl={project4}/>
+                        </div>
+                    </div>
            </div>
         </div>
     );
