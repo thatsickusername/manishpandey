@@ -49,4 +49,5 @@
     font-weight: 400 !important;
     font-style: normal !important;
     color: white !important;
+    margin-bottom: calc(100vw * 0.06) !important;
 }

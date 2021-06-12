@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom'
 import '../css/Projects.css';
 import ProjectDisplayComponent from './ProjectDisplayComponent';
 import project1 from '../images/project1.jpeg';
@@ -13,20 +13,41 @@ function Projects() {
            <div className="ProjectsContainer CommonContainer">
                     <h2>latest <br/>projects</h2>
                     <div className="MobileCollumn">
-                        <ProjectDisplayComponent ProjectTittle="Project 1 tittle" imgurl={project1}/>
-                        <ProjectDisplayComponent ProjectTittle="Project 2 tittle" imgurl={project2}/>
-                        <ProjectDisplayComponent ProjectTittle="Project 3 tittle" imgurl={project3}/>
-                        <ProjectDisplayComponent ProjectTittle="Project 4 tittle" imgurl={project4}/>
+                        <Link to='/Project1' className="ProjectDisplayComponent">
+                            <ProjectDisplayComponent ProjectTittle="Project 1 tittle" imgurl={project1}/>
+                        </Link>
+
+                        <Link to='/Project2' className="ProjectDisplayComponent">
+                            <ProjectDisplayComponent ProjectTittle="Project 2 tittle" imgurl={project2}/>
+                        </Link>
+
+                        <Link to='/Project3' className="ProjectDisplayComponent">
+                            <ProjectDisplayComponent ProjectTittle="Project 3 tittle" imgurl={project3}/>
+                        </Link>
+
+                        <Link to='/Project4' className="ProjectDisplayComponent">
+                            <ProjectDisplayComponent ProjectTittle="Project 4 tittle" imgurl={project4}/>
+                        </Link>
                     </div>
 
                     <div className="LaptopGrid">
                         <div className="TopRow">
-                            <ProjectDisplayComponent ProjectTittle="Project 1 tittle" imgurl={project1}/>
-                            <ProjectDisplayComponent ProjectTittle="Project 2 tittle" imgurl={project2}/>
+                            <Link to='/Project1'  className="ProjectDisplayComponent">
+                                <ProjectDisplayComponent ProjectTittle="Project 1 tittle" imgurl={project1}/>
+                            </Link>
+
+                            <Link to='/Project2'  className="ProjectDisplayComponent">
+                                <ProjectDisplayComponent ProjectTittle="Project 2 tittle" imgurl={project2}/>
+                            </Link>
                         </div>
                         <div className="BottomRow">
-                            <ProjectDisplayComponent ProjectTittle="Project 3 tittle" imgurl={project3}/>
-                            <ProjectDisplayComponent ProjectTittle="Project 4 tittle" imgurl={project4}/>
+                            <Link to='/Project3' className="ProjectDisplayComponent">
+                                <ProjectDisplayComponent ProjectTittle="Project 3 tittle" imgurl={project3}/>
+                            </Link>
+
+                            <Link to='/Project4' className="ProjectDisplayComponent">
+                                <ProjectDisplayComponent ProjectTittle="Project 4 tittle" imgurl={project4}/>
+                            </Link>
                         </div>
                     </div>
            </div>

@@ -53,13 +53,28 @@
     }
 
     .SkillsTextWrapper ul {  
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
+      display: none;  
     }
 
-    .SkillsTextWrapper ul li {  
-        margin: 0 20px;
+    .SkillsDesktop {
+        display: block;
+        width: 1000px;
+    }
+
+    .SkillsDesktop h3 {
+        list-style: none;
+        text-align: center;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 22px;
+        line-height: 40px;
+        align-items: center;
+        letter-spacing: 1.6px;
+        color: #E1E1E1;
+    }
+
+    .SkillsDesktop span {
+        padding: 0 15px;
     }
 
     .ProjectsContainer h2 {
@@ -119,6 +134,10 @@
         width: 400px;
         margin: auto;
     } 
+
+    .ProjectIdeaContainer h2{
+        padding: 200px 0 150px;
+    }
 
     .ContactMeTextWrapper ul {  
         display: flex;

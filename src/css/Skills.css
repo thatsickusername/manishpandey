@@ -31,3 +31,7 @@
     letter-spacing: 1.6px;
     color: #E1E1E1;
 }
+
+.SkillsDesktop {
+    display: none;
+}

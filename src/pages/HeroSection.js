@@ -1,7 +1,12 @@
 import React from 'react';
 import '../css/HeroSection.css';
 
+
+
 function HeroSection() {
+
+
+    
     return (
         <div className="HeroSection">
             <div className="HeroContainer">

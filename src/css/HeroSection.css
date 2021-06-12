@@ -24,7 +24,9 @@
 .HeroTextWrapper h1{
     font-size: 67px;
     font-weight: 900;
+    position: relative;
 }
+
 
 .HeroTextWrapper h4{
     font-weight: 400;

@@ -1,11 +1,3 @@
-.ProjectDisplayComponent {
-
-    position: sticky;
-    top: 100px;
-    width: 100%;
-    height: calc(100vw * 0.85);
-    overflow: hidden;
-}
 
 .ProjectDisplayComponentContainer {
     width: 100%;

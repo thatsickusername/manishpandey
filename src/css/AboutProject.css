@@ -1,0 +1,44 @@
+.AboutProject {
+    height: auto;
+}
+
+.projectBanner {
+    height: 300px;
+    position: relative;
+    width: 100%;
+    box-shadow: inset 0px -40px  100px 4px #000000a8;
+    overflow: hidden;
+}
+
+.projectBanner img{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.projectHeading {
+    color: white;
+    text-align: center;
+    padding-top: 230px;
+    font-size: 50px;
+}
+
+.projectContent {
+    height: auto;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.projectText {
+    width: 86%;
+    margin: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 1.3px;
+    color: black;
+}

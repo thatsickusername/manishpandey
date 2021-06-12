@@ -39,9 +39,8 @@
         font-size: 22px;
     }
 
-
-    .SkillsTextWrapper{
-        padding: 200px 0;
+    .Skills {
+        height: 600px;
     }
     
     .SkillsTextWrapper h2 {
@@ -53,7 +52,7 @@
         font-size: 70px;
         line-height: 60px;
         letter-spacing: 2.5px;
-        margin: 250px 0 150px;
+        margin: 150px 0 50px;
     }
 
     .ProjectsContainer br {
@@ -81,12 +80,13 @@
         margin: auto;
     } 
 
+     .ContactMe {
+        height: 600px;
+    }
+    
     .ContactMeContainer h2 {
         font-size: 70px;
         line-height: 60px;
         letter-spacing: 2.5px;
     }
-
-
-
 }

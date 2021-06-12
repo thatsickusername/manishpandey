@@ -27,3 +27,15 @@
 .ProjectsContainer .LaptopGrid {
     display: none;
 }
+
+.ProjectDisplayComponent {
+    position: sticky;
+    top: 100px;
+    width: 100%;
+    height: calc(100vw * 0.85);
+    overflow: hidden;
+}
+
+
+
+
