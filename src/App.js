@@ -66,19 +66,47 @@ function App() {
                     </Route>
 
                     <Route path='/Project1' exact>
-                        <AboutProject projectImage={ProjectData[0].projectImage} projectTitle={ProjectData[0].projectTitle} projectText={ProjectData[0].projectText}/>
+                        <AboutProject 
+                            projectImage={ProjectData[0].projectImage} 
+                            projectTitle={ProjectData[0].projectTitle}
+                            projectType={ProjectData[0].projectType} 
+                            projectText={ProjectData[0].projectText}
+                            projectGitHubLink={ProjectData[0].projectGitHubLink}
+                            projectWebsite={ProjectData[0].projectWebsite}
+                        />
                     </Route>
 
                     <Route path='/Project2' exact>
-                        <AboutProject projectImage={ProjectData[1].projectImage} projectTitle={ProjectData[1].projectTitle} projectText={ProjectData[1].projectText}/>
+                        <AboutProject 
+                            projectImage={ProjectData[1].projectImage} 
+                            projectTitle={ProjectData[1].projectTitle} 
+                            projectType={ProjectData[1].projectType} 
+                            projectText={ProjectData[1].projectText}
+                            projectGitHubLink={ProjectData[1].projectGitHubLink}
+                            projectWebsite={ProjectData[1].projectWebsite}
+                        />
                     </Route>
                     
                     <Route path='/Project3' exact>
-                        <AboutProject projectImage={ProjectData[2].projectImage} projectTitle={ProjectData[2].projectTitle} projectText={ProjectData[2].projectText}/>
+                        <AboutProject 
+                            projectImage={ProjectData[2].projectImage} 
+                            projectTitle={ProjectData[2].projectTitle} 
+                            projectType={ProjectData[2].projectType} 
+                            projectText={ProjectData[2].projectText}
+                            projectGitHubLink={ProjectData[2].projectGitHubLink}
+                            projectWebsite={ProjectData[2].projectWebsite}
+                        />
                     </Route>
 
                     <Route path='/Project4' exact>
-                        <AboutProject projectImage={ProjectData[3].projectImage} projectTitle={ProjectData[3].projectTitle} projectText={ProjectData[3].projectText}/>
+                        <AboutProject 
+                            projectImage={ProjectData[3].projectImage} 
+                            projectTitle={ProjectData[3].projectTitle} 
+                            projectType={ProjectData[3].projectType} 
+                            projectText={ProjectData[3].projectText}
+                            projectGitHubLink={ProjectData[3].projectGitHubLink}
+                            projectWebsite={ProjectData[3].projectWebsite}
+                        />
                     </Route>
                 </Switch>
 

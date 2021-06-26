@@ -1,5 +1,6 @@
 .AboutProject {
-    height: auto;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .projectBanner {
@@ -29,16 +30,25 @@
 .projectContent {
     height: auto;
     padding: 100px 0;
-    width: 100%;
-}
-
-.projectText {
-    width: 86%;
+    width: 80%;
     margin: auto;
-    font-weight: 400;
     font-style: italic;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 26px;
     letter-spacing: 1.3px;
     color: black;
+}
+
+.projectType {
+    font-weight: 400;
+}
+
+.projectText{
+    font-weight: 400;
+}
+.projectGitHubLink{
+    font-weight: 400;
+}
+.projectWebsite{
+    font-weight: 400;
 }
