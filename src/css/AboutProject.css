@@ -39,16 +39,16 @@
     color: black;
 }
 
-.projectType {
-    font-weight: 400;
-}
-
 .projectText{
     font-weight: 400;
+    margin-left: 40px;
 }
-.projectGitHubLink{
-    font-weight: 400;
+
+.projectText a{
+    color: black;
 }
-.projectWebsite{
-    font-weight: 400;
+
+.projectText a:hover{
+    color: rgb(48, 48, 48);
+    text-decoration: underline 2px;
 }

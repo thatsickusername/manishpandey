@@ -69,7 +69,8 @@ function App() {
                         <AboutProject 
                             projectImage={ProjectData[0].projectImage} 
                             projectTitle={ProjectData[0].projectTitle}
-                            projectType={ProjectData[0].projectType} 
+                            projectType={ProjectData[0].projectType}
+                            projectTech={ProjectData[0].projectTech} 
                             projectText={ProjectData[0].projectText}
                             projectGitHubLink={ProjectData[0].projectGitHubLink}
                             projectWebsite={ProjectData[0].projectWebsite}
@@ -80,7 +81,8 @@ function App() {
                         <AboutProject 
                             projectImage={ProjectData[1].projectImage} 
                             projectTitle={ProjectData[1].projectTitle} 
-                            projectType={ProjectData[1].projectType} 
+                            projectType={ProjectData[1].projectType}
+                            projectTech={ProjectData[1].projectTech} 
                             projectText={ProjectData[1].projectText}
                             projectGitHubLink={ProjectData[1].projectGitHubLink}
                             projectWebsite={ProjectData[1].projectWebsite}
@@ -91,7 +93,8 @@ function App() {
                         <AboutProject 
                             projectImage={ProjectData[2].projectImage} 
                             projectTitle={ProjectData[2].projectTitle} 
-                            projectType={ProjectData[2].projectType} 
+                            projectType={ProjectData[2].projectType}
+                            projectTech={ProjectData[2].projectTech} 
                             projectText={ProjectData[2].projectText}
                             projectGitHubLink={ProjectData[2].projectGitHubLink}
                             projectWebsite={ProjectData[2].projectWebsite}
@@ -102,7 +105,8 @@ function App() {
                         <AboutProject 
                             projectImage={ProjectData[3].projectImage} 
                             projectTitle={ProjectData[3].projectTitle} 
-                            projectType={ProjectData[3].projectType} 
+                            projectType={ProjectData[3].projectType}
+                            projectTech={ProjectData[3].projectTech} 
                             projectText={ProjectData[3].projectText}
                             projectGitHubLink={ProjectData[3].projectGitHubLink}
                             projectWebsite={ProjectData[3].projectWebsite}
