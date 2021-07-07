@@ -9,7 +9,7 @@ function Animation() {
 
         gsap.from('.HeroTextWrapper',{
             opacity: 0,
-            duration: 0.7,
+            duration: 1,
             y: 20,
         })
 
@@ -47,11 +47,11 @@ function Animation() {
 
         gsap.from('.PhoneOverlay', {
             scrollTrigger: '.PhoneOverlay',
-            stagger: 0.5,
+            stagger: 0.7,
             opacity: 0,
-            y: 40,
-            scale: 0.9,
-            duration: 0.7
+            y: 50,
+            scale: 0.8,
+            duration: 1,
         })
 
         gsap.from('.ContactMeContainer ', {
@@ -61,12 +61,7 @@ function Animation() {
             scale: 0.9,
             duration: 1
         })
-
-
         
-
-
-
     },[])
 
 }
