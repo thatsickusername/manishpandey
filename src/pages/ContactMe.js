@@ -8,11 +8,11 @@ function ContactMe() {
                 <div className="ContactMeTextWrapper">
                     <h2>Contact Me</h2>
                     <ul>
-                        <li>@EmailMe</li>
-                        <li>@LinkedIn</li>
-                        <li>@GitHub</li>
-                        <li>@Dribble</li>
-                        <li>@Instagram</li>
+                        <a href="http://www.google.com" target="blank"><li>@EmailMe</li></a>
+                        <a href="http://www.google.com" target="blank"><li>@LinkedIn</li></a>
+                        <a href="http://www.google.com" target="blank"><li>@GitHub</li></a>
+                        <a href="http://www.google.com" target="blank"><li>@Dribble</li></a>
+                        <a href="http://www.google.com" target="blank"><li>@Instagram</li></a>
                     </ul>
                 </div>
             </div>
