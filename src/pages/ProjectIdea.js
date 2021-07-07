@@ -12,8 +12,9 @@ function ProjectIdea() {
                 <h2>Have a project idea in mind?</h2>
                 <div className="PhoneContainer">
                     <img alt="somepicture" src={PhoneMockup}></img>
-                    <img alt="somepicture" className="PhoneOverlay" src={GetInTouch}></img>
                     <img alt="somepicture" className="PhoneOverlay" src={Hi}></img>
+                    <img alt="somepicture" className="PhoneOverlay" src={GetInTouch}></img>
+                    
                 </div>
             </div>
         </div>

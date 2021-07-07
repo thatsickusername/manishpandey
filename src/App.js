@@ -26,10 +26,13 @@ import './mediaQueries/BigMonitorBreakpoint.css';
 import ScrollToTop from "./ScrollToTop";
 import ProjectData from './ProjectData';
 
+import Animation from './Animation';
+
 
 
 function App() {
 
+    Animation()
 
     return (
         <div id="my-scrollbar">
