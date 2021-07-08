@@ -14,10 +14,6 @@ function Projects() {
            <div className="ProjectsContainer CommonContainer">
                     <h2>latest <br/>projects</h2>
                     <div className="MobileCollumn">
-                        <Link to='/Project1' className="ProjectDisplayComponent">
-                            <ProjectDisplayComponent ProjectTittle="SKILLLY" imgurl={project1}/>
-                        </Link>
-
                         <Link to='/Project2' className="ProjectDisplayComponent">
                             <ProjectDisplayComponent ProjectTittle="Project Shoe Store" imgurl={project2}/>
                         </Link>
@@ -29,25 +25,29 @@ function Projects() {
                         <Link to='/Project4' className="ProjectDisplayComponent">
                             <ProjectDisplayComponent ProjectTittle="Portfolio Website" imgurl={project4}/>
                         </Link>
+
+                        <Link to='/Project1' className="ProjectDisplayComponent">
+                            <ProjectDisplayComponent ProjectTittle="SKILLLY" imgurl={project1}/>
+                        </Link>
                     </div>
 
                     <div className="LaptopGrid">
                         <div className="TopRow">
-                            <Link to='/Project1' className="ProjectDisplayComponent">
-                                <ProjectDisplayComponent ProjectTittle="SKILLLY" imgurl={project1}/>
-                            </Link>
-
                             <Link to='/Project2' className="ProjectDisplayComponent">
                                 <ProjectDisplayComponent ProjectTittle="Project Shoe Store" imgurl={project2}/>
                             </Link>
-                        </div>
-                        <div className="BottomRow">
+
                             <Link to='/Project3' className="ProjectDisplayComponent">
                                 <ProjectDisplayComponent ProjectTittle="Giphy Clone" imgurl={project3}/>
                             </Link>
+                        </div>
+                        <div className="BottomRow">
 
                             <Link to='/Project4' className="ProjectDisplayComponent">
                                 <ProjectDisplayComponent ProjectTittle="Portfolio Website" imgurl={project4}/>
+                            </Link>
+                            <Link to='/Project1' className="ProjectDisplayComponent">
+                                <ProjectDisplayComponent ProjectTittle="SKILLLY" imgurl={project1}/>
                             </Link>
                         </div>
                     </div>
