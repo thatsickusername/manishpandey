@@ -8,9 +8,9 @@ const ProjectData = [
         projectTitle: "SKILLLY",
         projectType: "Content writing practicing platform",
         projectTech: "React js, node js, Mongo DB, React Router",
-        projectText: "CURRENTLY IN DEVELOPMENT",
-        projectGitHubLink: "",
-        projectWebsite: "",
+        projectText: "A web app that helps budding content writers by providing them a platform to practice and learn from the community via a comprehensive mechanism of community feedback. The app provides the users with a list of prompts to write articles that are used to create a portfolio of the user’s best work. The quality of a user’s work is judged using reviews given by other users along with a self produced algorithm.",
+        projectGitHubLink: "https://github.com/SKILLLY/Main-Website",
+        projectWebsite: "https://skillly.netlify.app/",
         projectImage: project1    
     },
 
